@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 863da8eb74958401fb6ad87137e14477
+timeCreated: 1455766391
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Frog-Happy
+    21300002: Frog-Sad
+    21300004: Frog-Scared
+    21300006: Frog-Surprised
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Frog-Happy
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 47
+        width: 258
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -171}
+        - {x: 72, y: -171}
+        - {x: 92, y: -164}
+        - {x: 129, y: -85}
+        - {x: 129, y: 57}
+        - {x: 109, y: 53}
+        - {x: 102, y: 47}
+        - {x: 79, y: 154}
+        - {x: 65, y: 159}
+        - {x: -73, y: 159}
+        - {x: -99, y: 141}
+        - {x: -129, y: 78}
+        - {x: -129, y: -159}
+        - {x: -55, y: -171}
+        - {x: 22, y: -171}
+        - {x: 23, y: -162}
+        - {x: 25, y: -148}
+        - {x: 24, y: -157}
+        - {x: 28, y: -171}
+        - {x: 52, y: -171}
+        - {x: 59, y: -161}
+        - {x: 54, y: -151}
+        - {x: 57, y: -154}
+      - - {x: -82, y: 169}
+        - {x: -85, y: 163}
+        - {x: -85, y: 155}
+        - {x: -80, y: 155}
+        - {x: -63, y: 162}
+        - {x: -61, y: 164}
+        - {x: -61, y: 165}
+        - {x: -64, y: 169}
+      - - {x: 54, y: 171}
+        - {x: 54, y: 165}
+        - {x: 73, y: 160}
+        - {x: 77, y: 160}
+        - {x: 79, y: 161}
+        - {x: 79, y: 163}
+        - {x: 76, y: 171}
+    - name: Frog-Sad
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 258
+        height: 339
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.00006, y: -168.50002}
+        - {x: 101.00006, y: -143.50002}
+        - {x: 110.00006, y: -121.500015}
+        - {x: 107.00006, y: -105.500015}
+        - {x: 129.00006, y: -40.500015}
+        - {x: 129.00006, y: 39.499985}
+        - {x: 107.00006, y: 65.499985}
+        - {x: 86.00006, y: 147.49998}
+        - {x: 75.00006, y: 160.49998}
+        - {x: -61.99994, y: 160.49998}
+        - {x: -104.99994, y: 145.49998}
+        - {x: -128.99994, y: 55.499985}
+        - {x: -128.99994, y: -87.500015}
+        - {x: -109.99994, y: -137.50002}
+        - {x: -93.99994, y: -132.50002}
+        - {x: -88.99994, y: -126.500015}
+        - {x: -91.99994, y: -139.50002}
+        - {x: -81.99994, y: -169.50002}
+        - {x: 54.00006, y: -169.50002}
+        - {x: 58.00006, y: -161.50002}
+        - {x: 56.00006, y: -150.50002}
+        - {x: 60.00006, y: -157.50002}
+        - {x: 67.00006, y: -166.50002}
+      - - {x: 53.00006, y: 156.49998}
+        - {x: 57.00006, y: 157.49998}
+        - {x: 57.00006, y: 169.49998}
+        - {x: 35.00006, y: 169.49998}
+        - {x: 33.00006, y: 168.49998}
+        - {x: 33.00006, y: 156.49998}
+      - - {x: -49.99994, y: 169.49998}
+        - {x: -51.99994, y: 167.49998}
+        - {x: -51.99994, y: 163.49998}
+        - {x: -50.99994, y: 159.49998}
+        - {x: -31.999939, y: 157.49998}
+        - {x: -26.999939, y: 157.49998}
+        - {x: -26.999939, y: 162.49998}
+        - {x: -30.999939, y: 169.49998}
+    - name: Frog-Scared
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 53
+        width: 258
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -153.5}
+        - {x: 62, y: -164.5}
+        - {x: 84, y: -164.5}
+        - {x: 129, y: -125.5}
+        - {x: 129, y: 51.5}
+        - {x: 127, y: 65.5}
+        - {x: 90, y: 159.5}
+        - {x: 40, y: 159.5}
+        - {x: 34, y: 156.5}
+        - {x: -42, y: 158.5}
+        - {x: -75, y: 158.5}
+        - {x: -98, y: 55.5}
+        - {x: -129, y: 55.5}
+        - {x: -129, y: -60.5}
+        - {x: -115, y: -139.5}
+        - {x: -70, y: -164.5}
+        - {x: 55, y: -164.5}
+        - {x: 57, y: -153.5}
+        - {x: 50, y: -143.5}
+      - - {x: 22, y: 164.5}
+        - {x: 18, y: 163.5}
+        - {x: 18, y: 151.5}
+        - {x: 20, y: 150.5}
+        - {x: 32, y: 150.5}
+        - {x: 41, y: 157.5}
+        - {x: 41, y: 164.5}
+      - - {x: -44, y: 164.5}
+        - {x: -47, y: 161.5}
+        - {x: -47, y: 159.5}
+        - {x: -45, y: 157.5}
+        - {x: -43, y: 157.5}
+        - {x: -27, y: 151.5}
+        - {x: -25, y: 151.5}
+        - {x: -23, y: 152.5}
+        - {x: -23, y: 159.5}
+        - {x: -27, y: 164.5}
+    - name: Frog-Surprised
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 47
+        width: 259
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: -166.5}
+        - {x: 84.5, y: -170.5}
+        - {x: 85.5, y: -170.5}
+        - {x: 110.5, y: -143.5}
+        - {x: 129.5, y: -80.5}
+        - {x: 129.5, y: 40.5}
+        - {x: 122.5, y: 69.5}
+        - {x: 87.5, y: 40.5}
+        - {x: 87.5, y: 149.5}
+        - {x: 70.5, y: 159.5}
+        - {x: -63.5, y: 159.5}
+        - {x: -76.5, y: 157.5}
+        - {x: -91.5, y: 94.5}
+        - {x: -80.5, y: 64.5}
+        - {x: -122.5, y: 45.5}
+        - {x: -129.5, y: 33.5}
+        - {x: -129.5, y: -62.5}
+        - {x: -117.5, y: -149.5}
+        - {x: -72.5, y: -158.5}
+        - {x: -28.5, y: -170.5}
+        - {x: 50.5, y: -170.5}
+        - {x: 56.5, y: -163.5}
+        - {x: 56.5, y: -154.5}
+        - {x: 59.5, y: -153.5}
+      - - {x: -60.5, y: 162.5}
+        - {x: -59.5, y: 159.5}
+        - {x: -54.5, y: 159.5}
+        - {x: -47.5, y: 158.5}
+        - {x: -36.5, y: 158.5}
+        - {x: -34.5, y: 159.5}
+        - {x: -34.5, y: 162.5}
+        - {x: -37.5, y: 167.5}
+        - {x: -42.5, y: 169.5}
+        - {x: -55.5, y: 169.5}
+      - - {x: 31.5, y: 170.5}
+        - {x: 27.5, y: 168.5}
+        - {x: 27.5, y: 158.5}
+        - {x: 35.5, y: 158.5}
+        - {x: 51.5, y: 162.5}
+        - {x: 52.5, y: 166.5}
+        - {x: 52.5, y: 167.5}
+        - {x: 51.5, y: 170.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
