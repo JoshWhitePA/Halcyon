@@ -45,13 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Custom_Assets\Floater.cs" />
      <Compile Include="Assets\Reporter\MultiKeyDictionary.cs" />
      <Compile Include="Assets\Reporter\Reporter.cs" />
      <Compile Include="Assets\Reporter\ReporterGUI.cs" />
      <Compile Include="Assets\Reporter\ReporterMessageReceiver.cs" />
      <Compile Include="Assets\Reporter\Test\Rotate.cs" />
      <Compile Include="Assets\Reporter\Test\TestReporter.cs" />
+     <Compile Include="Assets\_Scripts\Floater.cs" />
      <Compile Include="Assets\_Scripts\FrogController.cs" />
      <Compile Include="Assets\_Scripts\LilyPadController.cs" />
      <Compile Include="Assets\_Scripts\WaveMotion.cs" />

@@ -27,7 +27,7 @@ public class FrogController : MonoBehaviour {
 		}
 
 		// Update is called once per frame
-		void FixedUpdate () {
+		void Update () {
 //			Vector3 v3  = Input.mousePosition;
 //			v3.z = 10;
 //			v3 = cam.ScreenToWorldPoint (v3);
