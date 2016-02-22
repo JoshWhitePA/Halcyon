@@ -54,7 +54,7 @@
      <Compile Include="Assets\Reporter\Test\TestReporter.cs" />
      <Compile Include="Assets\_Scripts\FrogController.cs" />
      <Compile Include="Assets\_Scripts\LilyPadController.cs" />
-     <Compile Include="Assets\_Scripts\WaveMovement.cs" />
+     <Compile Include="Assets\_Scripts\WaveMotion.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

@@ -5,12 +5,12 @@ public class FrogController : MonoBehaviour {
 		public Camera cam;
 		public float maxWidth;
 
-		public Sprite[] emotionSprites;
+//		public Sprite[] emotionSprites;
 
 		void Awake()
 		{
 			// load all frames in fruitsSprites array
-			emotionSprites = Resources.LoadAll<Sprite>("Frog-Sprite");
+//			emotionSprites = Resources.LoadAll<Sprite>("Frog-Sprite");
 		}
 
 		// Use this for initialization
@@ -19,11 +19,11 @@ public class FrogController : MonoBehaviour {
 				cam = Camera.main;
 			}
 			// create the object
-			GameObject frog = new GameObject();
-			// add a "SpriteRenderer" component to the newly created object
-			frog.AddComponent<SpriteRenderer>();
-				// assign "fruit_9" sprite to it
-			frog.GetComponent<SpriteRenderer>().sprite = emotionSprites[0];
+//			GameObject frog = new GameObject();
+//			// add a "SpriteRenderer" component to the newly created object
+//			frog.AddComponent<SpriteRenderer>();
+//				// assign "fruit_9" sprite to it
+//			frog.GetComponent<SpriteRenderer>().sprite = emotionSprites[0];
 		}
 
 		// Update is called once per frame
