@@ -4,14 +4,26 @@ using System.Collections;
 public class FrogController : MonoBehaviour {
 		public Camera cam;
 		public float maxWidth;
+
+		public Sprite[] emotionSprites;
+
+		void Awake()
+		{
+			// load all frames in fruitsSprites array
+			emotionSprites = Resources.LoadAll<Sprite>("Frog-Sprite");
+		}
+
 		// Use this for initialization
 		void Start () {
 			if (cam == null){
 				cam = Camera.main;
 			}
-//			Vector3 upperCorner = new Vector3 (Screen.width,Screen.height,0.0f);
-//			Vector3 targetWidth = cam.ScreenToWorldPoint(upperCorner);
-//			maxWidth = targetWidth.x;
+			// create the object
+			GameObject frog = new GameObject();
+			// add a "SpriteRenderer" component to the newly created object
+			frog.AddComponent<SpriteRenderer>();
+				// assign "fruit_9" sprite to it
+			frog.GetComponent<SpriteRenderer>().sprite = emotionSprites[0];
 		}
 
 		// Update is called once per frame
@@ -24,8 +36,4 @@ public class FrogController : MonoBehaviour {
 //			GetComponent<Rigidbody2D>().MovePosition (targetPos); 
 		}
 
-//	public Vector2 CenterFromFrog(){
-//
-//
-//	}
 	}
