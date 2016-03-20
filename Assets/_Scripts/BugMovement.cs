@@ -71,6 +71,6 @@ public class BugMovement : MonoBehaviour {
 			tiempo = 0.0f;
 		}
 
-		transform.localPosition = new Vector3 (transform.localPosition.x + x, transform.localPosition.y, 0);
+		transform.localPosition = new Vector3 (transform.localPosition.x + x, transform.localPosition.y, -5);
 	}
 }
