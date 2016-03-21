@@ -16,3 +16,4 @@ Temp
 *.csproj
 *.pidb
 *.sln
+Assets/StreamingAssets/build_info.txt
