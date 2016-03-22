@@ -34,7 +34,9 @@ public class CloudMovement : MonoBehaviour {
 				startY,
 				this.transform.position.z);
 		} else {
-		
+			transform.position = new Vector3 (moveToLoc(),
+				startY,
+				this.transform.position.z);
 		}
 	}
 	float moveToLoc(){

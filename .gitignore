@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+*.bin
+Library/metadata/
+>>>>>>> EEG2
 # Unity3D .gitignore file.
 # Store this file at the root of your local repository.
 .DS_Store
@@ -16,4 +21,7 @@ Temp
 *.csproj
 *.pidb
 *.sln
+<<<<<<< HEAD
 Assets/StreamingAssets/build_info.txt
+=======
+>>>>>>> EEG2
