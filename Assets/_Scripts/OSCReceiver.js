@@ -10,6 +10,7 @@ public var jawClench = false;
 var animConnector : Animator; 
 public var displayFocusString = "init";
 public var displayCalmString = "init";
+public var Emotion = 0;
 
 //VARIABLES YOU WANT TO BE ANIMATED
 private var yRot : int = 0; //the rotation around the y axis
@@ -25,7 +26,6 @@ public function Start ()
 	handler.init(udp);
 	handler.SetAllMessageHandler(AllMessageHandler);
 	animConnector = GetComponent("Animator");
-
 }
 Debug.Log("Running");
 
@@ -33,6 +33,7 @@ function Update () {
 	var go = GameObject.Find(gameReceiver);
 	go.transform.Rotate(0, yRot, 0);
 	animConnector.SetBool("Calm", isCalm);
+	animConnector.SetInteger("Emotion", Emotion);
 }
 
 //These functions are called when messages are received
@@ -60,11 +61,13 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  {
 			  	//SADFACE
 			  	isCalm = false;
+			  	Emotion = 1;
 			  	//Debug.Log("Sadface: " + msgValue);
 			  	//Debug.Log("isCalm " + isCalm);
 			  }
 			  if(msgValue > 0.31 && msgValue < 0.79)
 			  {
+			  	Emotion = 0;
 			  	//CONCERNFACE
 			  	isCalm = false;
 			  	//Debug.Log("Concernface: " + msgValue);
@@ -72,6 +75,7 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  }
 			  if(msgValue > 0.80 && msgValue < 1.1)
 			  {
+			  	Emotion = 2;
 			  	isCalm = true;
 			  	Debug.Log("CALM!! " + msgValue);
 			  	Debug.Log("isCalm " + isCalm);
@@ -102,10 +106,12 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  if(msgValue == 1.0)
 			  {
 			  	jawClench = true;
+
 			  }
 			  else
 			  {
 			  	jawClench = false;
+			  	Emotion = 3;
 			  }
 			  break;
 		default:
