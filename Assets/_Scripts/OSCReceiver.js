@@ -105,18 +105,21 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			Debug.Log("JAW: " + msgValue);
 			  if(msgValue == 1.0)
 			  {
-			  	jawClench = true;
+//			  	jawClench = true;
 
 			  }
 			  else
 			  {
-			  	jawClench = false;
-			  	Emotion = 3;
+//			  	jawClench = false;
+//			  	Emotion = 3;
 			  }
 			  break;
 		default:
 			//Rotate(msgValue);
 			break;
+	}
+	if (isCalm && isFocused){
+		Emotion = 3;
 	}
 
 }
