@@ -34,7 +34,7 @@ public class CloudMovement : MonoBehaviour {
 				startY,
 				this.transform.position.z);
 		} else {
-			transform.position = new Vector3 (moveToLoc(),
+			transform.position = new Vector3 (startX,
 				startY,
 				this.transform.position.z);
 		}
@@ -55,7 +55,7 @@ public class CloudMovement : MonoBehaviour {
 //					DebugConsole.Log("Right-rollin: currentPosX: "+currentPosX,"red");
 				} else {
 					if (this.transform.position.x >= startX) {
-						currentPosX = this.transform.position.x - .0004f;
+						currentPosX -= this.transform.position.x - .1f;
 					} else {
 						currentPosX = this.transform.position.x;
 					}
@@ -73,7 +73,7 @@ public class CloudMovement : MonoBehaviour {
 //					DebugConsole.Log("Left-rollin: currentPosX: "+currentPosX,"green");
 				} else {
 					if (this.transform.position.x <= startX) {
-						currentPosX = this.transform.position.x + .1f;
+						currentPosX -= this.transform.position.x + .1f;
 					} else {
 						currentPosX = this.transform.position.x;
 					}
@@ -89,5 +89,7 @@ public class CloudMovement : MonoBehaviour {
 		codeNameX = (startX/3) ;
 		return codeNameX;
 	}
+
+
 
 }
