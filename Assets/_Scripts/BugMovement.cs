@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//[RequireComponent(typeof(AudioSource))]
 public class BugMovement : MonoBehaviour {
 	public float velocidadMax;
+	public int score;
 	public Vector3 frogLoc = GameObject.FindGameObjectWithTag("DaFrog").transform.position;
 	public float xMax;
 	public float zMax;
@@ -13,6 +14,7 @@ public class BugMovement : MonoBehaviour {
 	public bool catchAnim;
 	public Vector3 flyLocOrigin;
 	Vector3 tmpF;
+
 
 	private float x;
 	private float z;
@@ -26,6 +28,7 @@ public class BugMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		score = 0;
 		tmpF = new Vector3 (this.transform.position.x,this.transform.position.y+1,this.transform.position.z);
 		catchAnim = false;
 		y = Random.Range(-velocidadMax, velocidadMax);
@@ -84,8 +87,14 @@ public class BugMovement : MonoBehaviour {
 			flyLocOrigin = new  Vector3 (transform.localPosition.x + x, transform.localPosition.y, -5);
 		} else {
 			speed = 3;
+			this.GetComponent<AudioSource>().Play();
+
 			moveFlyToFrog();
+//			AudioSource audio = GetComponent<AudioSource>();
+//			audio.Play();
+//			audio.Play(44100);
 		}
+		GameObject.Find ("GUIScore").GetComponent<GUIText> ().text = "Score: " + score.ToString ();
 	}
 
 	void moveFlyToFrog(){
@@ -98,6 +107,7 @@ public class BugMovement : MonoBehaviour {
 			catchAnim = false;
 			transform.position = new Vector3 (flyLocOrigin.x,flyLocOrigin.y,flyLocOrigin.z);
 			this.gameObject.SetActive(true);
+			score++;
 		}
 	}
 
