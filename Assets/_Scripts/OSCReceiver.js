@@ -1,3 +1,4 @@
+
 public var RemoteIP : String = "127.0.0.1"; //127.0.0.1 signifies a local host (if testing locally
 public var SendToPort : int = 9000; //the port you will be sending from
 public var ListenerPort : int = 8000; //the port you will be listening on
@@ -53,12 +54,16 @@ public function AllMessageHandler(oscMessage: OscMessage){
 	switch (msgAddress){
 		case "/muse/elements/experimental/mellow": 
 			//Ranges: 
+//			 var lp: LilyPadController = GetComponent(LilyPadController); 
+//			 var cm: CloudMovement = GetComponent(CloudMovement);
 			  //Sadface = 0.00-0.30
 			  //Concern = 0.31 - 0.79
 			  //Calm = 0.80 - 1.0
 			  displayCalmString = "CALM: " + msgValue.ToString();
 			  if (msgValue > 0.00 && msgValue < 0.30)
 			  {
+//			  	cm.rollIn = true;
+//			  	lp.floatStrength = 5;
 			  	//SADFACE
 			  	isCalm = false;
 			  	Emotion = 1;
@@ -67,6 +72,7 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  }
 			  if(msgValue > 0.31 && msgValue < 0.79)
 			  {
+//			  	lp.floatStrength = 3;
 			  	Emotion = 0;
 			  	//CONCERNFACE
 			  	isCalm = false;
@@ -75,6 +81,8 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  }
 			  if(msgValue > 0.80 && msgValue < 1.1)
 			  {
+//			  cm.rollIn = false;
+//			  lp.floatStrength = 1;
 			  	Emotion = 2;
 			  	isCalm = true;
 			  	Debug.Log("CALM!! " + msgValue);
@@ -86,14 +94,12 @@ public function AllMessageHandler(oscMessage: OscMessage){
 				//Distracted = 0.00 - 0.79
 				//Focused = 0.80 - 1.0
 			displayFocusString = "FOCUS: " + msgValue.ToString();
-			  if(msgValue > 0.00 && msgValue < 0.79)
-			  {
+			  if(msgValue > 0.00 && msgValue < 0.79){
 			  	//Target not on fly
 			  	isFocused = false;
 			  	//Debug.Log("Distracted: " + msgValue);
 			  }
-			  if(msgValue > 0.80 && msgValue < 1.1)
-			  {
+			  if(msgValue > 0.80 && msgValue < 1.1) {
 			  	//Target locked in
 			  	isFocused = true;
 			  	//Debug.Log("FOCUSED!! " + msgValue);
@@ -105,13 +111,11 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			Debug.Log("JAW: " + msgValue);
 			  if(msgValue == 1.0)
 			  {
-//			  	jawClench = true;
 
 			  }
 			  else
 			  {
-//			  	jawClench = false;
-//			  	Emotion = 3;
+
 			  }
 			  break;
 		default:
@@ -119,6 +123,8 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			break;
 	}
 	if (isCalm && isFocused){
+//	 	var bm: BugMovement = GetComponent(BugMovement);
+//	 	bm.catchAnim = true;
 		Emotion = 3;
 	}
 
@@ -140,3 +146,6 @@ public function Rotate(msgValue) : void //rotate the cube around its axis
 	yRot = msgValue;
 }
 */
+
+
+

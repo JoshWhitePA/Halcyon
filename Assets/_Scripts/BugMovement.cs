@@ -14,7 +14,7 @@ public class BugMovement : MonoBehaviour {
 	public bool catchAnim;
 	public Vector3 flyLocOrigin;
 	Vector3 tmpF;
-
+	AudioSource audio;
 
 	private float x;
 	private float z;
@@ -87,12 +87,11 @@ public class BugMovement : MonoBehaviour {
 			flyLocOrigin = new  Vector3 (transform.localPosition.x + x, transform.localPosition.y, -5);
 		} else {
 			speed = 3;
-			this.GetComponent<AudioSource>().Play();
-
+			//			this.GetComponent<AudioSource>().Play();
 			moveFlyToFrog();
-//			AudioSource audio = GetComponent<AudioSource>();
-//			audio.Play();
-//			audio.Play(44100);
+			//			AudioSource audio = GetComponent<AudioSource>();
+			//			audio.Play();
+			//			audio.Play(44100);
 		}
 		GameObject.Find ("GUIScore").GetComponent<GUIText> ().text = "Score: " + score.ToString ();
 	}
