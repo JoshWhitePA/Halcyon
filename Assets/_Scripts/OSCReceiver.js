@@ -12,7 +12,7 @@ var animConnector : Animator;
 public var displayFocusString = "init";
 public var displayCalmString = "init";
 public var Emotion = 0;
-public var calmMeter = 0.0;
+public var focusMeter = 1.0;
 
 //VARIABLES YOU WANT TO BE ANIMATED
 private var yRot : int = 0; //the rotation around the y axis
@@ -36,6 +36,9 @@ function Update () {
 	go.transform.Rotate(0, yRot, 0);
 	//animConnector.SetBool("Calm", isCalm);
 	animConnector.SetInteger("Emotion", Emotion);
+	//debugging
+	focusMeter = 1.0;
+	updateMeter("Focus", focusMeter);
 }
 
 //These functions are called when messages are received
@@ -96,6 +99,10 @@ public function AllMessageHandler(oscMessage: OscMessage){
 				//Distracted = 0.00 - 0.79
 				//Focused = 0.80 - 1.0
 			displayFocusString = "FOCUS: " + msgValue.ToString();
+			  focusMeter = msgValue.toFloat();
+			  //debugging
+			  focusMeter = 1.0;
+			  updateMeter("Focus", focusMeter);
 			  if(msgValue > 0.00 && msgValue < 0.79){
 			  	//Target not on fly
 			  	isFocused = false;
@@ -132,15 +139,29 @@ public function AllMessageHandler(oscMessage: OscMessage){
 
 }
 
-/*
-function calmMeter(value: float)
-{
-	//meter updates on increments of 0.10 until 1.0 = 100%
-	if(value == 1)
-	{ 
 
+function updateMeter(type: String, value: float)
+{
+	Debug.log("Type: ", type);
+	Debug.log("Value: ", value);
+	//meter updates on increments of 0.10 until 1.0 = 100%
+	if (type == "Focus")
+		if(value == 1)
+		{ 
+			 GameObject.FindGameObjectWithTag("Focus100").GetComponent.<Renderer>().enabled = true;
+			 GameObject.FindGameObjectWithTag("Focus90").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus80").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus70").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus60").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus50").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus40").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus30").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus20").GetComponent.<Renderer>().enabled = false;
+			 GameObject.FindGameObjectWithTag("Focus10").GetComponent.<Renderer>().enabled = false;
+		}
+	//if (type == "Calm")
+	//{}
 }
-*/
 /*
 function OnGUI () {
     // Make a background box
