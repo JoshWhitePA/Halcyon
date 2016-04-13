@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		GameObject.Find("GUITimer").GetComponent<GUIText>().text = Math.Round(timeLeft,0).ToString();
+		GameObject.Find("GUITimer").GetComponent<GUIText>().text = "Time: " + Math.Round(timeLeft,0).ToString();
 		timeLeft -= Time.deltaTime;
 		if(timeLeft < 0)
 		{

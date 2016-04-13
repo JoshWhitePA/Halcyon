@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/CloudMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/OSCReceiver.js">
     <Files>
-      <File FileName="Assets/_Scripts/CloudMovement.cs" Line="11" Column="16" />
-      <File FileName="Assets/_Scripts/OSCTestSender.cs" Line="1" Column="1" />
       <File FileName="Assets/_Scripts/Timer.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/OSCReceiver.js" Line="36" Column="40" />
+      <File FileName="Assets/_Scripts/BugMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/EatSound.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/CloudMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/OSCTestSender.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

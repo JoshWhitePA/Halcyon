@@ -49,10 +49,14 @@
      <Compile Include="Assets\AnimatedLineRenderer\Demo\DemoScriptPhasor.cs" />
      <Compile Include="Assets\AnimatedLineRenderer\Scripts\AnimatedLineRenderer.cs" />
      <Compile Include="Assets\AnimatedLineRenderer\Scripts\PhasorScript.cs" />
+     <Compile Include="Assets\EatMe.cs" />
+     <Compile Include="Assets\EatSound.cs" />
+     <Compile Include="Assets\EatSounds.cs" />
      <Compile Include="Assets\FastLineRenderer\Demo\FastLineRendererDemoScript.cs" />
      <Compile Include="Assets\FastLineRenderer\Script\FastLineRenderer.cs" />
      <Compile Include="Assets\FastLineRenderer\Script\FastLineRendererEditorUtilities.cs" />
      <Compile Include="Assets\FastLineRenderer\Script\PathGenerator.cs" />
+     <Compile Include="Assets\HeEatsIt.cs" />
      <Compile Include="Assets\Reporter\MultiKeyDictionary.cs" />
      <Compile Include="Assets\Reporter\Reporter.cs" />
      <Compile Include="Assets\Reporter\ReporterGUI.cs" />

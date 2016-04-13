@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Build from KRAKEN at 4/11/2016 10:37:07 PM
+=======
+Build from Joshua’s MacBook Pro at 04/12/2016 10:41:31
+>>>>>>> refs/remotes/origin/master
