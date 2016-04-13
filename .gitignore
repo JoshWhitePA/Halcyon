@@ -1,10 +1,7 @@
 
-<<<<<<< HEAD
 *.bin
-Library/metadata/
-
-=======
->>>>>>> origin/EEG2
+Library/metadata/*
+Assets/StreamingAssets/*
 # Unity3D .gitignore file.
 # Store this file at the root of your local repository.
 .DS_Store
