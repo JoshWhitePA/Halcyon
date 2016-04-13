@@ -11,6 +11,7 @@ var animConnector : Animator;
 public var displayFocusString = "init";
 public var displayCalmString = "init";
 public var Emotion = 0;
+public var calmMeter = 0.0;
 
 //VARIABLES YOU WANT TO BE ANIMATED
 private var yRot : int = 0; //the rotation around the y axis
@@ -32,7 +33,7 @@ Debug.Log("Running");
 function Update () {
 	var go = GameObject.Find(gameReceiver);
 	go.transform.Rotate(0, yRot, 0);
-	animConnector.SetBool("Calm", isCalm);
+	//animConnector.SetBool("Calm", isCalm);
 	animConnector.SetInteger("Emotion", Emotion);
 }
 
@@ -57,6 +58,7 @@ public function AllMessageHandler(oscMessage: OscMessage){
 			  //Concern = 0.31 - 0.79
 			  //Calm = 0.80 - 1.0
 			  displayCalmString = "CALM: " + msgValue.ToString();
+			  calmMeter = msgValue.ToFloat();
 			  if (msgValue > 0.00 && msgValue < 0.30)
 			  {
 			  	//SADFACE
@@ -124,14 +126,23 @@ public function AllMessageHandler(oscMessage: OscMessage){
 
 }
 
+/*
+function calmMeter(value: float)
+{
+	//meter updates on increments of 0.10 until 1.0 = 100%
+	if(value == 1)
+	{ 
 
+}
+*/
+/*
 function OnGUI () {
     // Make a background box
     GUI.Box (Rect (10,10,100,30), displayFocusString);
     GUI.Box (Rect (10,40,100,30), displayCalmString);
 
   
-}
+}*/
 
 //FUNCTIONS CALLED BY MATCHING A SPECIFIC MESSAGE IN THE ALLMESSAGEHANDLER FUNCTION
 /*
