@@ -1,0 +1,586 @@
+Mono path[0] = 'D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Ruminate_Data/Managed'
+Mono path[1] = 'D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Ruminate_Data/Mono'
+Mono config path = 'D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Ruminate_Data/Mono/etc'
+PlayerConnection initialized from D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Ruminate_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55083
+Multi-casting "[IP] 10.32.1.6 [Port] 55083 [Flags] 2 [Guid] 3571479266 [EditorId] 1514621213 [Version] 1048832 [Id] WindowsPlayer(Kraken) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.32.1.6:55083]
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7660D (ID=0x9901)
+    Vendor:   ATI
+    VRAM:     750 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.129 seconds
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.845518 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 11d0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.372816 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 253.
+Total: 0.179794 ms (FindLiveObjects: 0.029965 ms CreateObjectMapping: 0.028885 ms MarkObjects: 0.106634 ms  DeleteObjects: 0.011338 ms)
+
+Platform assembly: D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Ruminate_Data\Managed\Boo.Lang.dll (this message is harmless)
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor01 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor02 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor04 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Sensor05 Values: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Forehead: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Close OSC UDP socket
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+OSCCalibrate:disableOSC() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\_Scripts\OSCCalibrate.js:147)
+OSCCalibrate:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\_Scripts\OSCCalibrate.js:68)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/_Scripts/OSCCalibrate.js Line: 147)
+
+Osc Cancel start
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Osc:Cancel() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Plugins\Osc.cs:60)
+OSCCalibrate:disableOSC() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\_Scripts\OSCCalibrate.js:148)
+OSCCalibrate:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\_Scripts\OSCCalibrate.js:68)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Plugins/Osc.cs Line: 60)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.491869 ms
+System memory in use before: 18.3 MB.
+System memory in use after: 18.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 0.343930 ms (FindLiveObjects: 0.034285 ms CreateObjectMapping: 0.014307 ms MarkObjects: 0.275900 ms  DeleteObjects: 0.017817 ms)
+
+0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+TutorialTracker:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Standard Assets\CSharp\TutorialTracker.cs:67)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Standard Assets/CSharp/TutorialTracker.cs Line: 67)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+TutorialTracker:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Standard Assets\CSharp\TutorialTracker.cs:67)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Standard Assets/CSharp/TutorialTracker.cs Line: 67)
+
+2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+TutorialTracker:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Standard Assets\CSharp\TutorialTracker.cs:67)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Standard Assets/CSharp/TutorialTracker.cs Line: 67)
+
+3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+TutorialTracker:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Standard Assets\CSharp\TutorialTracker.cs:67)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Standard Assets/CSharp/TutorialTracker.cs Line: 67)
+
+4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+TutorialTracker:Update() (at D:\Development\CSC\CSC220\HalcyonJWV1_WS\HalcyonJWV1_WS\Halcyon\Assets\Standard Assets\CSharp\TutorialTracker.cs:67)
+ 
+(Filename: D:/Development/CSC/CSC220/HalcyonJWV1_WS/HalcyonJWV1_WS/Halcyon/Assets/Standard Assets/CSharp/TutorialTracker.cs Line: 67)
+
+FindGameObjectWithTag can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineGameObjectBindings.gen.cpp Line: 281)
+
+ArgumentException: FindGameObjectWithTag can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectWithTag (string)
+  at BugMovement..ctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.941495 ms
+System memory in use before: 27.2 MB.
+System memory in use after: 27.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 452.
+Total: 0.217588 ms (FindLiveObjects: 0.028885 ms CreateObjectMapping: 0.016467 ms MarkObjects: 0.154687 ms  DeleteObjects: 0.016197 ms)
+

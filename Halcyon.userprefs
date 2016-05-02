@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/CSharp/TutorialTracker.cs">
+    <Files>
+      <File FileName="Assets/LoadingTimer.cs" Line="8" Column="20" />
+      <File FileName="Assets/Standard Assets/CSharp/SpashTimer.cs" Line="3" Column="1" />
+      <File FileName="Assets/Standard Assets/CSharp/TutorialTracker.cs" Line="62" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
